@@ -11,6 +11,7 @@ def line(katz_deli)
     lineString += "#{iteration}. #{name} "
     iteration += 1
   end
+  puts lineString
   return lineString
 end
 
