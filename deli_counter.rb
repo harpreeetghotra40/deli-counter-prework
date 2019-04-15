@@ -8,7 +8,7 @@ def line(katz_deli)
   lineString = "The line is currently: "
   iteration = 1
   katz_deli.each do |name|
-    lineString += "#{iteration}. #{name}"
+    lineString += "#{iteration}. #{name} "
     iteration += 1
   end
   return lineString
