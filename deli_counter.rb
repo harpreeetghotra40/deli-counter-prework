@@ -25,5 +25,5 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be server!"
   end
   name = katz_deli.shift
-  puts "Currently severing #{name}."
+  puts "Currently serving #{name}."
 end
