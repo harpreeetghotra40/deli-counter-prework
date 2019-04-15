@@ -4,6 +4,7 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
+    return
   end
   lineString = "The line is currently:"
   iteration = 1
@@ -12,6 +13,7 @@ def line(katz_deli)
     lineString += "#{iteration}. #{name}"
     iteration += 1
   end
+  puts lineString
   return lineString
 end
 
