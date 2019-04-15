@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli , name)
   katz_deli.push(name)
-  number = katz_deli.size + 1
+  number = katz_deli.size
   puts "Welcome, #{name}, You are number #{number} in line."
 end
 
