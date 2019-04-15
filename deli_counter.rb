@@ -11,7 +11,7 @@ def line(katz_deli)
     lineString += " #{iteration}. #{name}"
     iteration += 1
   end
-  return lineString
+  puts lineString
 end
 
 def take_a_number(katz_deli , name)
